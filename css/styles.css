@@ -87,6 +87,10 @@ input, button {
   padding: .7rem;
   line-height: 1rem; }
 
+.information {
+  max-width: 1024px;
+  margin: 0 auto; }
+
 .container-title-img {
   padding: 80px; }
 
