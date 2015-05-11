@@ -1,0 +1,19 @@
+.boxes{
+	margin:0 auto;
+	padding:60px 0px 60px 0;
+	width:100%;
+	background-color:#008bb3;
+}
+.box{
+	float:left;
+	width:25%;
+	padding:15px;
+}
+.img-box{
+	width:100%;
+	padding-top:10px;
+	cursor:pointer;
+}
+.img-box:hover{
+	opacity:.6;
+}

@@ -2,8 +2,43 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
 
+.title-web, h4 {
+  font-family: "Dosis", sans-serif; }
+
+.subtitle, .title-img-top, .subtitle-web {
+  font-family: "Lato", sans-serif;
+  font-weight: 200; }
+
+.title-img-top {
+  font-size: 45px; }
+
+.title-web {
+  font-size: 18px; }
+
+.subtitle-web, .subtitle {
+  font-size: 20px; }
+
+h4 {
+  font-size: 18px;
+  font-weight: 300; }
+
+.subtitle-web {
+  display: block; }
+
+.title-img-top {
+  text-transform: uppercase; }
+
+.title-img-top, .subtitle, h4 {
+  text-align: center; }
+
+.title-img-top, h4 {
+  color: white; }
+
 a {
   text-decoration: none; }
+
+.menu a {
+  color: black; }
 
 *,
 *:before,
@@ -19,5 +54,106 @@ a {
 
 .cf:after {
   clear: both; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+button {
+  width: 20%;
+  float: left;
+  background-color: white;
+  border: none;
+  font-family: "Dosis",sans-serif;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+button:hover {
+  background-color: #A0A0A0;
+  color: white;
+  cursor: pointer; }
+
+input[type="text"] {
+  background: #E6E6E6;
+  display: block;
+  font-size: 0.876rem;
+  width: 80%;
+  border: none;
+  color: #A0A0A0;
+  font-weight: 400;
+  float: left; }
+
+input, button {
+  padding: .7rem;
+  line-height: 1rem; }
+
+.container-title-img {
+  padding: 80px; }
+
+.container-buscador {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px; }
+
+.container-subtitle {
+  margin: 40px;
+  padding: 60px; }
+
+.img-top {
+  background-image: url(../assets/heading.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px; }
+
+.boxes {
+  margin: 0 auto;
+  padding: 60px 0px 60px 0;
+  width: 100%;
+  background-color: #008bb3; }
+
+.box {
+  float: left;
+  width: 25%;
+  padding: 15px; }
+
+.img-box {
+  width: 100%;
+  padding-top: 10px;
+  cursor: pointer; }
+
+.img-box:hover {
+  opacity: .6; }
+
+.total-logo {
+  float: left; }
+
+.logo {
+  width: 20%;
+  float: left; }
+
+.img-logo {
+  width: 100%;
+  padding: 10px; }
+
+.title-web {
+  float: left;
+  padding: 20px 20px 20px 0px; }
+
+.menu {
+  float: right;
+  padding-right: 20px; }
+
+li {
+  float: left;
+  list-style: none;
+  padding: 20px;
+  font-family: "Lato",sans-serif;
+  font-size: 14px;
+  font-weight: 200; }
+
+li:hover {
+  background-color: #A0A0A0; }
+  li:hover a {
+    color: white; }
 
 /*# sourceMappingURL=styles.css.map */
