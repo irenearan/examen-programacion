@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+//irene:podría agruparlo mejor con sass, no me dio tiempo 
+.title-web,h4{
+	font-family:"Dosis", sans-serif;	
+}
+.subtitle, .title-img-top,.subtitle-web{
+	font-family:"Lato", sans-serif;
+	font-weight:200;
+}
+//irene:podría haber pusto rem en vez de pixels
+.title-img-top{
+	font-size:45px;
+}
+.title-web{
+	font-size:18px;
+}
+.subtitle-web,.subtitle{
+	font-size:20px;	
+}
+h4{
+	font-size:18px;
+	font-weight:300;
+}
+.subtitle-web{
+	display:block;
+}
+.title-img-top{
+	text-transform:uppercase;
+}
+.title-img-top, .subtitle, h4{
+	text-align:center;
+}
+.title-img-top, h4{
+	color:white;
+}
+
+
+

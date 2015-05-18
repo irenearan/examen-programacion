@@ -1,0 +1,36 @@
+.total-logo{
+	float:left;
+}
+
+.logo{
+	width:20%;
+	float:left;
+}
+.img-logo{
+	width:100%;
+	padding:10px;
+}
+.title-web{
+	float:left;
+	padding:20px 20px 20px 0px;
+}
+.menu{
+	float:right;
+	padding-right:20px;
+}
+li{
+	float:left;
+	list-style:none;
+	padding:20px;
+	font-family:"Lato",sans-serif;
+	font-size:14px;
+	font-weight:200;
+}
+li:hover{
+	background-color:#A0A0A0;
+	a{
+		color:white;
+	}
+}
+
+
