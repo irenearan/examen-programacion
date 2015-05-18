@@ -2,7 +2,10 @@ h1,h2,h3,h4,h5,h6,p{
 	margin:0;
 	padding:0;
 }
+
 //irene:podría agruparlo mejor con sass, no me dio tiempo 
+
+
 .title-web,h4{
 	font-family:"Dosis", sans-serif;	
 }
@@ -10,7 +13,9 @@ h1,h2,h3,h4,h5,h6,p{
 	font-family:"Lato", sans-serif;
 	font-weight:200;
 }
+
 //irene:podría haber pusto rem en vez de pixels
+
 .title-img-top{
 	font-size:45px;
 }
